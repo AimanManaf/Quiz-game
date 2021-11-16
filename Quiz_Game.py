@@ -51,6 +51,7 @@ while True:
 
     if count > 1:
         print('Congratulations!')
+        break
     else:
         passing = input('Do you want to try again until you pass?(y/n): ').lower()
         if passing == 'y':
